@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="css/estilos.css" >
+    <script src="Js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Ejemplos de Jquery</h1>
+        </header>
+        <div class="menu">
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Conocenos</a>
+                        <ul>
+                            <li><a href="#">Ubicacion.</a>
+                            </li>
+                            <li><a href="#">Horario.</a>
+                            </li>
+                            <li><a href="#">Experiencia.</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contactanos</a>
+                        <ul>
+                            <li><a href="#">Email.</a>
+                            </li>
+                            <li><a href="#">Redes.</a>
+                            </li>
+                            <li><a href="#">Blog</a>
+                            </li>
+                            <li><a href="#">Otros.</a>
+                                <ul>
+                                    <li><a href="#">Curriculum.</a>
+                                    </li>
+                                    <li><a href="#">Proyectos</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="slider">
+            <div class="slider-outer">
+                <img src="img/izquierda.png" class="prev" alt="Prev">
+                <div class="slider-inner">
+                  <img src="img/1.jpg" class="active">
+                  <img src="img/2.png">
+                  <img src="img/3.png">
+                  <img src="img/4.png">
+                </div>
+                <img src="img/derecha.png" class="next" alt="Next">
+              </div>
+        </div>
+        <div class="cargar">
+            <button type="button" class="button" id="btnCargar">Cargar</button>
+            <div class="container" id="contenido"></div>
+        </div>
+        <div class="ajax">
+        <button class="button" id="boton">Peticion Ajax</button>
+        <div id="lista-usuarios"></div>
+        </div>
+        <div class="efecto">
+            <img id="imagen" src="img/efecto.png" alt=""/>
+            <button class="button" id="btn1">Mostrar</button>
+            <button class="button" id="btn2">Ocultar</button>
+        </div>
+        <div class="otro">
+            <div id="cuadro">Jquery</div>
+            <button class="button" id="btn">Click Aqui!</button>
+        </div>
+        <div class="footer">
+            <footer>
+                Coopyrigth 2019 © Todos los derechos reservados Pedro Magaña.
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
